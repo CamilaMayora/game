@@ -1,0 +1,99 @@
+body{
+    background: #000000;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    border: #9d00ff 2px solid;
+    border-radius: 5px;
+    background: #d7b6ed;
+    box-shadow: 15px 15px 50px #8e35c9;
+
+    margin: 0.5% 0.5% 1% 0.5%;
+    text-align: center;
+}
+
+main{
+    border: #9d00ff 2px solid;
+    border-radius: 5px;
+    background: #d7b6ed;
+    box-shadow: 15px 15px 50px #8e35c9;
+
+    text-align: center;
+    margin: 2% 0.5% 1% 0.5%;
+}
+
+.Card-BTN{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.Card-BTN-Repeat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3%;
+}
+
+.Card-BTN input[type="button"] {
+    background-color: #9154c0;
+    color: #000;
+    
+    border: 1px solid #280051;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Card-BTN input[type="button"]:hover {
+    background-color: #280051;
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+#Resultados{
+    color: black;
+    font-size: 30px;
+}
+
+.Card-Footer{
+    border: #9d00ff 2px solid;
+    border-radius: 5px;
+    background: #d7b6ed;
+    box-shadow: 15px 15px 50px #8e35c9;
+
+    text-align: center;
+    margin: 2% 0.5% 1% 0.5%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card-Contacto a{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+
+
+    transition: backgroun-color 0.3s, transform 0.3s;
+}
+
+.Card-Contacto a:hover{
+    background-color: #b256f0;
+    color: rgb(0, 0, 0);
+}
+
+h3, h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 1px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Piedra, Papel, Tijera</title>
+</head>
+<body>
+        <header>
+                <h1>Game</h1>
+                <h4>Piedra, Papel, Tijera</h4>
+        </header>
+        <main class="Card-Main">
+            <span>Selecciona una opción para jugar:</span>
+            <div class="Card-BTN">
+                <input type="button" value="Piedra" id="Piedra">
+                <input type="button" value="Papel" id="Papel">
+                <input type="button" value="Tijera" id="Tijera">
+            </div>
+            <div class="Card-BTN Card-BTN-Repeat">
+                <input type="button" 
+                value="Volver A Jugar"
+                id="volver" 
+                onclick="Repeat()">
+            </div>
+            <div id="Resultados">
+            </div>
+        </main>
+        <footer class="Card-Footer">
+            <section class="Card-Game">
+                <h3>GAME</h3>
+                <p>
+                    El clásico juego de Piedra, Papel o Tijera. <br>
+                    ¿Podrás ganarle un desafío a la computadora?
+                </p>
+            </section>
+            <section class="Card-Contacto">
+                <h3>Contacto</h3>
+                <a href="mailto:">CamilaMayora04@gmail.com</a> <br>
+                <a href="https://github.com/CamilaMayora">GitHub</a>
+            </section>
+        </footer>
+        <script src="index.js"></script>
+</body>
+</html>
