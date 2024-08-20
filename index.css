@@ -16,7 +16,7 @@ header{
     text-align: center;
 }
 
-main{
+.Card-Main{
     border: #9d00ff 2px solid;
     border-radius: 5px;
     background: #d7b6ed;
@@ -24,6 +24,10 @@ main{
 
     text-align: center;
     margin: 2% 0.5% 1% 0.5%;
+}
+
+.Card-Main span{
+    font-size: 25px;
 }
 
 .Card-BTN{
